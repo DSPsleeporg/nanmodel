@@ -17,7 +17,7 @@ Network analyses were conducted with GPU in NVIDIA HPC SDK 22.11. Codes were wri
 All codes except for codes used in the network analysis are written in python. Codes used in the network analysis are written in C++ and CUDA.
 
 ### Description
-The largest file CodeRev is divided into Basic, Fig1, 2, 3, 4, 5, FigS1, S2, S3, S4, S5, S6, S7. As the name suggests, these files contains all coded necessary for generating figures in this paper. 
+The largest file CodeRev is divided into Basic, Fig1, 2, 3, 4, 5, FigS1, S2, S3, S4, S5, S6, S7. As the name suggests, these files contain all coded necessary for generating figures in this paper. 
 
 ##### Basic
 This file contains CSV files (CodeRev/Basic/CSV) for all models used in this study, calculation of trajectory for all types of models used in this study, and the code used for choosing the representative parameter set. Both in the file "Original" and "Revised", inside the file "anmodel", codes describing the models are stored. Most of the simulations conducted in this study are using codes in the folder "Original", except for some revised models. All simulations are conducted under the condition that the reversal potential is constant, except for simulations using codes in "Revised" folders, where the reversal potential of Na+, K+ and Ca2+ change dynamically and are dependent on intracellular and extracellular Na+, K+ and Ca2+, respectively. 
