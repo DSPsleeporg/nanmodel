@@ -35,7 +35,7 @@ In the "Revised" file (CodeRev/Basic/Revised), 6 files are stored (similar to "O
 
 PCA.ipynb: This is the code used for obtaining the representative parameter set.
 
-##### Fig1~Fig5, FigS1~FigS7
+##### Fig1, 2, 3, 4, 5, FigS1, S2, S3, S4, S5, S6, S7
 By running the file (the names of which end with ".ipynb"), you can get figures presented in this study.
 
 Here are the descriptions of each module.
