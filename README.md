@@ -31,7 +31,7 @@ models.py: module for solving ordinary differential equations in the models
 params.py: module for storing parameters (constants) in the models
 search.py: module for running the parameter search
 
-In the "Revised" file (CodeRev/Basic/Revised), 6 files are stored (similar to "Original" file described above), and this is used for running the revised models used in the study, which took account the dynamics of intracellular and extracellular Na+, K+, and Ca2+ to calculate the reversal potential.
+In the "Detailed" file (CodeRev/Basic/Detailed), 6 files are stored (similar to "Original" file described above), and this is used for running the revised models used in the study, which took account the dynamics of intracellular and extracellular Na+, K+, and Ca2+ to calculate the reversal potential.
 
 PCA.ipynb: This is the code used for obtaining the representative parameter set.
 
